@@ -1,0 +1,15 @@
+{
+  "manifest_version": 2,
+
+  "name": "Chrome extension test",
+  "description": "This extension will remove div",
+  "version": "1.0",
+
+  "browser_action": {
+   "default_icon": "icon.png",
+   "default_popup": "popup.html"
+  },
+  "permissions": [
+   "activeTab"
+   ]
+}
